@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tg-bot-webhook"
+version = "0.1.0"
+description = ""
+authors = ["Alex Kor <dna1133@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tg_bot_webhook", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
