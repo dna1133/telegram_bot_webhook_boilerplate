@@ -9,5 +9,4 @@ logger = logging.getLogger(__name__)
 
 async def start_handler(message: types.Message) -> None:
     content = StartMessage().message()
-    await message.answer(text="test text", parse_mode=str)
-    # await message.answer(**content)
+    await message.answer(**content)
